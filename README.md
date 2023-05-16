@@ -1,8 +1,14 @@
 # Vite + React Tutorial
 
-Modern web development following a tutorial by JavaScriptMastery building a responsive React JS application using TailwindCSS.
+Modern web development front-end focused project following a tutorial by JavaScriptMastery building a responsive React JS application using TailwindCSS.
 
-### Deployed Site:
+### Deployed Site on Heroku: 
+
+### Tech Stack
+- Vite
+- JavaScript
+- TailwindCSS
+- Heroku
 
 **JavaScript Mastery Tutorial:**  
 [Build and Deploy a Fully Responsive Website with Modern UI/UX in React JS with Tailwind](https://www.youtube.com/watch?v=_oO4Qi5aVZs)  
