@@ -1,2 +1,5 @@
-# vite-react-tailwind-project
-Modern web development following a tutorial by JavaScriptMastery building a responsive React JS application using TailwindCSS consisting of a styled hero section, high-quality assets and gradients, business stats, reusable feature sections with call-to-action buttons, testimonials, and more!
+# Vite + React Tutorial
+
+Modern web development following a tutorial by JavaScriptMastery building a responsive React JS application using TailwindCSS.
+
+## JavaScript Mastery Tutorial [Build and Deploy a Fully Responsive Website with Modern UI/UX in React JS with Tailwind](https://www.youtube.com/watch?v=_oO4Qi5aVZs)
