@@ -17,16 +17,19 @@ const Footer = () => (
         </p>
       </div>
 
-      {/* map over footer links to display in a seperate div */}
+      {/* map over footer link titles in the footerlinks array to display titles 'useful links, community and partner' in a one div */}
       <div className="flex-[1.5] w-[full] flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerLink) => (
           <div key={footerLink.key} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
             <h4 className={`font-poppins font-bold text-[18px] leading-[27px] text-dimWhite`}>
               {footerLink.title}
             </h4>
-            <ul>
+
+            {/* map over the second array of objects (inside the footerlinks array) with the links for each footer titles to display in a second div */}
+            <ul className="list-no0ne mt-4">
               {footerLink.links.map((link, index) => (
-                  <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
+                  <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}`}
+                  >
                     {link.name}
                   </li>
               ))}
@@ -35,6 +38,24 @@ const Footer = () => (
         ))}
       </div>
     </div>
+
+    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
+      <p className={`font-poppins font-normal text-center text-[18px] leading-[27px] text-dimWhite`}>
+        2021 Hootbank. All Rights Reserved
+      </p>
+      {/* new div as a container for social media icons */}
+      <div className="flex flex-row md:mt-0 mt-6">
+        {socialMedia.map((social, index)=> (
+          <img 
+            key={social.id} 
+            src={social.icon}
+            alt={social.id}
+            className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
+          />
+        ))}
+      </div>
+    </div>
+
   </section>
 );
 
