@@ -14,9 +14,9 @@ Modern web development following a tutorial by JavaScriptMastery building a resp
 I spent the last week following alongside a JavaScript Mastery tutorial whereby we rebuilt a banking app which was pre-designed by [OneWeekWonders](https://www.oneweekwonders.com/). This tutorial was my first time learning about Tailwind and Vite and I learnt so much! 🧠 
 
 A summary of what I learnt: 
-- [x] Vite is a new tool, an alternative to CreateReactApp which can initialise a React App
+- [x] Vite is a new tool, an alternative to CreateReactApp which can initialise a React App and provides a faster and leaner development experience for modern web development 🏃 
 - [x] Downloading extention ES7+ React in VSCode enabled me to create component templates using 'rafce' within seconds! 🤯 
-- [x] In VSCode, using alt to multi-select and cmd + arrowkey to multi add syntax such as self closing tags in the App.js file 
+- [x] In VSCode, using alt to multi-select and cmd + arrowkey to multi add syntax such as self closing tags in the App.js file 🆙 
 - [x] So much about Tailwind! Using the documentation and a [Tailwind CheatSheet](https://nerdcave.com/tailwind-cheat-sheet) to understand and add styling to components 📃 
 - [x] How to create responsive designs for webs and phone apps in tailwind using the 'sm' and 'md' tags in ClassNames 📱 
 - [x] How to create a seperate styling sheet, importing 'styles' and using dynamic string template in className styling to keep code tidy and styling seperate, consistent and uniform 👔 
