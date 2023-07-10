@@ -1,4 +1,4 @@
-# Visit the deployed [app](https://modern-bank-app-inky.vercel.app/)
+### Visit the [deployed app](https://modern-bank-app-inky.vercel.app/)
 
 # Vite + React Tutorial
 
